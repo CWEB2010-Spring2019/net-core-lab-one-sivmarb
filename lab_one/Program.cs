@@ -54,7 +54,7 @@ namespace Lab_01
                         wrong.Add("Question: " + (x + 1) + ")" + selection);
                     }
                 }
-                Console.WriteLine("You answered " + correct.Count + " out of " + quizQuestions.Length);
+                Console.WriteLine("You answered {0} out of " + quizQuestions.Length, correct.Count);
                 if (wrong.Count > 0)
                 {
                     Console.WriteLine("Listed below are the questions you got wrong: ");
